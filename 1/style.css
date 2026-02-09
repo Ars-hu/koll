@@ -1,0 +1,22 @@
+body {
+    background-color: darkorange;
+}
+.Dostijzeniya {
+    background-color: gold;
+    border-radius: 30px;
+    color: blue
+    font-size: 36px;
+}
+.photo {
+    background-color: gold;
+    border-radius: 30px;
+    color: blue;
+    font-size: 36px;
+    display: flex;
+}
+.Ssilki {
+    background-color: gold;
+    border-radius: 30px;
+    color: blue;
+    font-size: 36px;
+}
