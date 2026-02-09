@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    /* Твой яркий градиент */
+    background: linear-gradient(45deg, #273cfa 0%, #ec3b24 100%);
+    color: #333;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.list {
+    color: aliceblue;
+    list-style: none;
+    padding: 0;
+
+}
+
+.list a {
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Блок с достижениями/приветствием */
+.Dostijzeniya {
+    border-radius: 200px;
+    color: blue;
+    font-size: 36px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+    
+}
+
+.menu {
+    width: 100px;
+    
+    color: rgb(255, 0, 200);
+    text-align: left;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: https://cdnn21.img.ria.ru/images/07e9/08/0f/2035657529_0:0:3181:2048_1440x900_80_1_1_7455b35744b7ee162339885d1483596e.jpg.webp?source-sid=rian_photo;
+}
+
+.menu .list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.menu .list_item {
+    background-color: gold;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    overflow: hidden; 
+}
+
+.menu .list_text h2 {
+    color: blue;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.menu .list_text p {
+    color: chocolate;
+    margin: 0;
+    font-size: 18px;
+}
+
+.menu img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover; /* Чтобы фото не сплющивалось */
+}
+
+
+/*body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    background: linear-gradient(45deg, #273cfa 0%, #ec3b24 100%);
+    color: #333;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+.right{
+    column-count: auto;
+}
+.left {
+    width: 100px;
+    color: rgb(255, 0, 200);
+    text-align: left;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
